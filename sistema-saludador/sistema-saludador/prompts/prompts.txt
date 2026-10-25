@@ -1,0 +1,42 @@
+REGISTRO DE PROMPTS CON ENFOQUE SOCRÁTICO
+Proyecto: Sistema Saludador (Java/JavaFX)
+
+Propósito
+Estos prompts están redactados desde la perspectiva del estudiante y usan el método socrático: pedir orientación mediante preguntas, analizar decisiones y construir la solución paso a paso, en lugar de solicitar que la IA entregue todo el código sin explicación.
+
+
+CHAT 1 — Comprender el problema antes de programar
+Estudiante:
+"Quiero desarrollar el laboratorio llamado Sistema Saludador en Java y JavaFX. Antes de darme una solución, ayúdame a entender el enunciado con preguntas. ¿Quién usa el sistema? ¿Qué datos necesita ingresar? ¿Qué debe pasar cuando pulse 'Solicitar saludo'? Hazme preguntas de una en una para que yo identifique los requisitos funcionales y al final ayúdame a comprobar si los entendí correctamente. No escribas todavía el código."
+
+CHAT 2 — Elegir la estructura del proyecto
+Estudiante:
+"Ya identifiqué que necesito una aplicación de escritorio que pida nombre, edad y hora AM/PM y luego muestre un saludo personalizado. Guíame socráticamente para decidir qué partes debe tener el proyecto JavaFX. Pregúntame qué responsabilidad tendría la interfaz, cuál tendría la lógica de validación y para qué serviría Maven. Después de mis respuestas, señala los conceptos que me falten y propón una estructura sencilla explicando por qué cada archivo es necesario."
+
+CHAT 3 — Diseñar la interfaz
+Estudiante:
+"Ayúdame a diseñar la ventana del Sistema Saludador sin resolverlo todo por mí. Pregúntame qué campos necesita ver el estudiante, qué control conviene para elegir AM o PM, cómo se solicita el saludo y dónde se muestra el resultado. Si propongo algo confuso, dame una pista y explícame las ventajas y desventajas. Al final, resume una interfaz clara y accesible para implementar con JavaFX."
+
+CHAT 4 — Pensar las validaciones
+Estudiante:
+"Quiero evitar que el programa acepte datos incorrectos. En vez de darme de inmediato las condiciones, hazme preguntas para descubrir qué debería ocurrir si el nombre está vacío, si la edad contiene letras o es negativa, y si la hora está fuera de rango. Ayúdame a distinguir entre validar que un dato exista y validar que tenga un formato correcto. Luego revisa conmigo un conjunto pequeño de casos de prueba y sus resultados esperados."
+
+CHAT 5 — Entender los eventos y el saludo
+Estudiante:
+"Necesito conectar el botón 'Saludar' con la lógica del programa. Explícame mediante preguntas qué es un evento, qué información debe leer el controlador y cuándo debe mostrar un error en vez del saludo. Ayúdame a construir el flujo en pasos pequeños. Si incluyes código de ejemplo, comenta cada parte y pregúntame cómo se relaciona con los requisitos del laboratorio."
+
+CHAT 6 — Implementar y revisar el código
+Estudiante:
+"Voy a implementar la aplicación JavaFX. Acompáñame como tutor socrático: primero pregúntame qué clase y qué método creo que necesito; después revisa mi propuesta, dame pistas antes de mostrar una corrección y explica por qué es necesaria. Verifica que el saludo use el nombre y la edad ingresados y que la hora y AM/PM se manejen de forma coherente. No afirmes que las pruebas pasaron si no se han ejecutado."
+
+CHAT 7 — Preparar README y entrega
+Estudiante:
+"Quiero que otra persona pueda descargar y ejecutar el prototipo. Hazme preguntas para comprobar qué información debería incluir el README: versión de Java, Maven, comando de ejecución, pasos de uso, estructura de carpetas y caso de uso. Después ayúdame a redactarlo con instrucciones verificables. No inventes un enlace de GitHub ni digas que el proyecto está publicado si todavía no lo está."
+
+CHAT 8 — Reflexionar sobre el aprendizaje
+Estudiante:
+"Ayúdame a escribir una reflexión honesta sobre el desarrollo. En lugar de inventar experiencias por mí, pregúntame qué dificultad tuve, cómo la investigué, qué aprendí sobre JavaFX y validaciones, y qué mejoraría. Con mis respuestas, ayúdame a organizar un texto en primera persona. Si todavía no te he contado una experiencia, deja una pregunta o un espacio para completarla."
+
+CHAT 9 — Comprobación final
+Estudiante:
+"Antes de entregar, actúa como revisor socrático. Hazme preguntas para comprobar si el prototipo cumple el enunciado: ingreso de nombre, edad y hora AM/PM, botón para solicitar saludo, validación y mensaje personalizado. Ayúdame a crear una lista de comprobación y dime qué evidencia debo revisar en mi computador y en GitHub."
